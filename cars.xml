@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Vehicles>
+  <Vehicle>
+    <Category>Sedan</Category>
+    <Availability>True</Availability>
+    <Brand>Lamborghini</Brand>
+    <Model>Camry</Model>
+    <ModelYear>2019</ModelYear>
+    <Mileage>100000</Mileage>
+    <FuelType>Petrol</FuelType>
+    <Seats>2</Seats>
+    <PricePerDay>1000</PricePerDay>
+    <Description>Lamborghini Camry. Latest of Lamborghini</Description>
+    <Image>320i.jpg</Image>
+  </Vehicle>
+
+  <Vehicle>
+    <Category>Wagon</Category>
+    <Availability>True</Availability>
+    <Brand>Porsche</Brand>
+    <Model>911</Model>
+    <ModelYear>1911</ModelYear>
+    <Mileage>100000</Mileage>
+    <FuelType>Diesel</FuelType>
+    <Seats>4</Seats>
+    <PricePerDay>1500</PricePerDay>
+    <Description>Porsche 911. Its the best.</Description>
+    <Image>Camry.jpg</Image>
+  </Vehicle>
+
+  <Vehicle>
+    <Category>SUV</Category>
+    <Availability>True</Availability>
+    <Brand>Mercedes</Brand>
+    <Model>F1</Model>
+    <ModelYear>2019</ModelYear>
+    <Mileage>100000</Mileage>
+    <FuelType>Electric</FuelType>
+    <Seats>1</Seats>
+    <PricePerDay>800</PricePerDay>
+    <Description>Mercedes F1. Race SUV</Description>
+    <Image>Captiva.jpg</Image>
+  </Vehicle>
+
+  <Vehicle>
+    <Category>Sedan</Category>
+    <Availability>True</Availability>
+    <Brand>Lamborghini</Brand>
+    <Model>Gallardo</Model>
+    <ModelYear>2015</ModelYear>
+    <Mileage>1500</Mileage>
+    <FuelType>AIR</FuelType>
+    <Seats>2</Seats>
+    <PricePerDay>10</PricePerDay>
+    <Description>Lamborghini Gallardo. Its really old.</Description>
+    <Image>Cherokee.jpg</Image>
+  </Vehicle>
+
+  <Vehicle>
+    <Category>SUV</Category>
+    <Availability>True</Availability>
+    <Brand>Porsche</Brand>
+    <Model>911 2012</Model>
+    <ModelYear>2012</ModelYear>
+    <Mileage>100000</Mileage>
+    <FuelType>Petrol</FuelType>
+    <Seats>2</Seats>
+    <PricePerDay>800</PricePerDay>
+    <Description>Porsche 911 2012. Latest of Porsche</Description>
+    <Image>Civic.jpg</Image>
+  </Vehicle>
+
+  <Vehicle>
+    <Category>Sedan</Category>
+    <Availability>True</Availability>
+    <Brand>Sumcar</Brand>
+    <Model>Sumcar 222</Model>
+    <ModelYear>2022</ModelYear>
+    <Mileage>100030</Mileage>
+    <FuelType>Diesel</FuelType>
+    <Seats>4</Seats>
+    <PricePerDay>50</PricePerDay>
+    <Description>Sumcar Camry. Latest of Sumcar</Description>
+    <Image>GLC.jpg</Image>
+  </Vehicle>
+
+  <Vehicle>
+    <Category>Sedan</Category>
+    <Availability>False</Availability>
+    <Brand>ASD</Brand>
+    <Model>QWE</Model>
+    <ModelYear>2019</ModelYear>
+    <Mileage>100000</Mileage>
+    <FuelType>Petrol</FuelType>
+    <Seats>2</Seats>
+    <PricePerDay>1000</PricePerDay>
+    <Description>ASD QWE. Latest of ASDQWE</Description>
+    <Image>Golf.jpg</Image>
+  </Vehicle>
+
+  <Vehicle>
+    <Category>Wagon</Category>
+    <Availability>False</Availability>
+    <Brand>CVB</Brand>
+    <Model>DFG</Model>
+    <ModelYear>2019</ModelYear>
+    <Mileage>100000</Mileage>
+    <FuelType>Diesel</FuelType>
+    <Seats>2</Seats>
+    <PricePerDay>1000</PricePerDay>
+    <Description>CVB DFG. Latest of CVBDFG</Description>
+    <Image>Jimny.jpg</Image>
+  </Vehicle>
+
+
+  <Vehicle>
+    <Category>Sedan</Category>
+    <Availability>False</Availability>
+    <Brand>YUI</Brand>
+    <Model>HJK</Model>
+    <ModelYear>2019</ModelYear>
+    <Mileage>100000</Mileage>
+    <FuelType>AIR</FuelType>
+    <Seats>2</Seats>
+    <PricePerDay>40</PricePerDay>
+    <Description>YUI HJK. Latest of YUIHJK</Description>
+    <Image>Sonata.jpg</Image>
+  </Vehicle>
+
+
+  <Vehicle>
+    <Category>Sedan</Category>
+    <Availability>True</Availability>
+    <Brand>LUILUI</Brand>
+    <Model>TUITUI</Model>
+    <ModelYear>2011</ModelYear>
+    <Mileage>50000</Mileage>
+    <FuelType>BORED</FuelType>
+    <Seats>8</Seats>
+    <PricePerDay>40</PricePerDay>
+    <Description>HELP ME</Description>
+    <Image>X-trail.jpg</Image>
+  </Vehicle>
+</Vehicles>

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+          integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <style>
+        .grey {
+            background: darkgrey;
+        }
+    </style>
+</head>
+<body onload="loadXMLDoc()">
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark ">
+    <a class="navbar-brand" href="./">HERTZ-UTS</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <h3 class="font-weight-bold text-center w-100" style="color : white"> Car Rental Center </h3>
+    <div class="navbar-nav ml-auto">
+        <a class="btn btn-primary btn-sm small" href="./shoppingCart.html"> Car Reservation</a>
+    </div>
+</nav>
+<div class="container mt-5 p-3 ">
+    <form action="mail.php" method="post">
+        <div class="row">
+            <div class="col-md-4 grey mr-0 pr-0">First Name <span style="font-size: 14px;color: red">*</span></div>
+            <div class="col-md-8 ml-0 pl-0"><input type="text" name="firstName" class="form-control" required/></div>
+
+            <div class="col-md-4 grey mr-0 pr-0">Last Name <span style="font-size: 14px;color: red">*</span></div>
+            <div class="col-md-8 ml-0 pl-0"><input type="text" name="lastName" class="form-control" required/></div>
+
+            <div class="col-md-4 grey mr-0 pr-0">Email Address <span style="font-size: 14px;color: red">*</span></div>
+            <div class="col-md-8 ml-0 pl-0"><input type="email" name="email" class="form-control" required/></div>
+
+            <div class="col-md-4 grey mr-0 pr-0">Address Line 1<span style="font-size: 14px;color: red">*</span></div>
+            <div class="col-md-8 ml-0 pl-0"><input type="text" name="address1" class="form-control" required/></div>
+
+            <div class="col-md-4 grey mr-0 pr-0">Address Line 2<span style="font-size: 14px;color: red">*</span></div>
+            <div class="col-md-8 ml-0 pl-0"><input type="text" name="address2" class="form-control" required/></div>
+
+            <div class="col-md-4 grey mr-0 pr-0">City <span style="font-size: 14px;color: red">*</span></div>
+            <div class="col-md-8 ml-0 pl-0"><input type="text" name="city" class="form-control" required/></div>
+
+            <div class="col-md-4 grey mr-0 pr-0">State <span style="font-size: 14px;color: red">*</span></div>
+            <div class="col-md-8 ml-0 pl-0">
+                <select name="state" id="state" class="form-control">
+                    <option value="Australia Capital Territory">Australia Capital Territory</option>
+                    <option value="Australia Capital Territory">Australia NotCapital Territory</option>
+                    <option value="Australia Capital Territory">SouthPark Territory</option>
+                    <option value="Australia Capital Territory">Family Guy Territory</option>
+                </select>
+            </div>
+
+            <div class="col-md-4 grey mr-0 pr-0">Post Code <span style="font-size: 14px;color: red">*</span></div>
+            <div class="col-md-8 ml-0 pl-0"><input type="text" name="postCode" class="form-control" required/></div>
+
+            <div class="col-md-4 grey mr-0 pr-0">Payment Type <span style="font-size: 14px;color: red">*</span></div>
+            <div class="col-md-8 ml-0 pl-0">
+                <select name="paymentType" id="paymentType" class="form-control">
+                    <option value="VISA">VISA</option>
+                    <option value="MASTERCARD">MASTERCARD</option>
+                    <option value="EXPRESSCARD">EXPRESSCARD</option>
+                </select>
+            </div>
+            <div id="amount">
+                <h5> You are required to pay <span id="paymentAmount"></span></h5>
+            </div>
+            <div class="w-100 mt-3">
+                <button type='button' class='btn btn-primary float-right mb-3 btn-sm'>Booking</button>
+                <button type='submit' class='btn btn-primary float-right mb-3 mr-3 btn-sm'>Continue Selection</button>
+
+            </div>
+        </div>
+    </form>
+</div>
+<script src="index.js"></script>
+</body>
+
+</html>
